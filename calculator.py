@@ -6,6 +6,10 @@ Also add Name Initial In comment above the code'''
 def add(n_1,n_2):
     return n_1 + n_2
 
+# Dev Goyal
+def mul(a,b):
+    return a*b
+
 
 num_1=int(input("Enter No1:- "))
 num_2=int(input("Enter No2:- "))
@@ -19,12 +23,15 @@ match operator:
     case ("+"):
         result=add(num_1,num_2)
         print(result)
-    case ("+"):
-        result=add(num_1,num_2)
+    case ("*"):
+        result=mul(num_1,num_2)
         print(result)
     case ("+"):
         result=add(num_1,num_2)
         print(result)
+    
+
+
     
 
 
